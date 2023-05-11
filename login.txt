@@ -1,2 +1,0 @@
-login credential
-assignment.txt
