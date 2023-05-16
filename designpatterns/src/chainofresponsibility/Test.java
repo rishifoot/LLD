@@ -8,7 +8,7 @@ public class Test {
 		Handler o2=new RealHandler2(o1);
 		Handler o3=new RealHandler3(o2);
 		Request r=new Request();
-		r.state=-10;
+		r.state=10;
 		o3.handleRequest(r);
 
 	}

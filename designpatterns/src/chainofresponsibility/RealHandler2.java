@@ -15,6 +15,7 @@ public class RealHandler2 extends Handler{
 			
 		}
 		else if(next!=null) {
+			System.out.println("forwarding request");
 			next.handleRequest(obj);
 		}
 		
