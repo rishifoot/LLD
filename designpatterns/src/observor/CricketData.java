@@ -24,6 +24,7 @@ public class CricketData extends Subject {
 	}
 	
 	public void setData(int runs,int overs,int wickets) {
+		
 		setRuns(runs);
 		setOvers(overs);
 		setWickets(wickets);
